@@ -1,7 +1,7 @@
 
 ```{r setup, include=FALSE}
 library(tidyverse)  
-Resident_Data <- read_csv("Exam_Data.csv")  
+Exam_data <- read_csv("Exam_data.csv")  
 ```
 ---
 title: "Hands-on Exercise 3a"

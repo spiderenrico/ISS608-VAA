@@ -1,3 +1,8 @@
+
+```{r setup, include=FALSE}
+library(tidyverse) 
+```
+
 ---
 title: "ISS608 VAA"
 author: "Enrico Sebastian"

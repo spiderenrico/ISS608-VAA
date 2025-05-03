@@ -1,7 +1,7 @@
 
 ```{r setup, include=FALSE}
 library(tidyverse)  
-Resident_Data <- read_csv("Exam_Data.csv")  
+Exam_data <- read_csv("Exam_data.csv")  
 ```
 ---
 title: "Hands-on Exercise 1"
@@ -138,7 +138,7 @@ A short description of each building block are as follows:
 
 ## **1.5 Essential Grammatical Elements in ggplot2: data**
 
-Let us call the `ggplot()` function using the code chunk on the right.
+Let us call the `ggplot()` function using the code chunk below.
 
 ```{r}
 ggplot(data=Exam_data)
