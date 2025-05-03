@@ -1,3 +1,10 @@
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readxl)
+GlobalPop <- read_xls("GlobalPopulation.xls")
+```
+
 ---
 title: "Hands-on Exercise 3b"
 author: "Enrico Sebastian"
