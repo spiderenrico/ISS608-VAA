@@ -1,3 +1,9 @@
+
+```{r setup, include=FALSE}
+library(tidyverse) 
+Resident_Data <- read_csv("Exam_Data.csv")  
+```
+
 ---
 title: "Hands-on Exercise 2"
 author: "Enrico Sebastian"
