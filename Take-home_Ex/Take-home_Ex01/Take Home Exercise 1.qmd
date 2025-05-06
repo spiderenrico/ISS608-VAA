@@ -1,8 +1,3 @@
-
-```{r setup, include=FALSE}
-library(tidyverse)  
-Resident_Data <- read_csv("data/Resident_Data.csv") 
-```
 ---
 title: "Take-Home Exercise 1"
 author: "Enrico Sebastian"
