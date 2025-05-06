@@ -1,0 +1,46 @@
+
+```{r setup, include=FALSE}
+library(tidyverse) 
+```
+
+---
+title: "ISS608 VAA"
+author: "Enrico Sebastian"
+date: "April 29 2025"
+date-modified: "last-modified"
+execute: 
+  eval: true
+  echo: true
+  warning: false
+  freeze: true
+---
+
+# **A very warm welcome!**
+
+Hi everyone, a very warm welcome to Rico's website. In this VAA website, I will be covering all my coursework application that I have learnt and gained throughout my ISS608 - Visual Analytics and Applications. Feel free to explore around my site by clicking on each of the navigation bars above to explore how I do my work and projects 
+
+## **About Myself**
+
+Just a short Introduction to myself, my name is Enrico Sebastian _(Rico for short)_ and I am currently a full-time student at Singapore Management University, pursuing my Master's Degree of IT in Business (Financial Technology and Analytics). Feel free to drop by and connect to my [linkedIn Profile](https://www.linkedin.com/in/enrico-sebastian-347646235/) if you would like to know more of myself.
+
+## **Why take this course? It's so hard leh!**
+
+Yes it is hard! But hands-on experience is important rather than just listening and memorising for finals or quizzes, and that is the reason why I took this course as I wanted to gain some hands-on experience on how to make use of R programming in associated with its related packages to build an effective and constructive website. 
+
+![](images/image1.png)
+This course was a bit hard to learn at first due to certain administrative matters such as how to push your codes up to git and netifly, but as I went along, things started out to get easy for me as I get used to it, despite the ups and downs that I need to face when executing my projects and take home exercises. 
+
+But well, that is life isn't? It isn't always easy, so whether I can do it or not, I must always do and strive for my best to achieve good results and good career in the future. So hope my website looks good for your reference, and happy exploring my website. See you when I see you and let's hope to connect one day!
+
+P.s If got any job lobang, pls drop by my [linkedIn Profile](https://www.linkedin.com/in/enrico-sebastian-347646235/) and private message me. :D
+
+
+
+
+
+
+
+
+
+
+

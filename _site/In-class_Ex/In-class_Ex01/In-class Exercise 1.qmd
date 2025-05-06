@@ -1,0 +1,17 @@
+---
+title: "In-Class Exercise 1"
+author: "Enrico Sebastian"
+date: "April 29 2025"
+date-modified: "last-modified"
+execute: 
+  eval: true
+  echo: true
+  warning: false
+  freeze: true
+---
+
+
+In class exercise 1 is done via Tableu. You may visit my [Tableu website](https://public.tableau.com/app/profile/enrico.sebastian/viz/In-classEx_02-Superstorereport/Dashboard1) to see this in-class exercise
+
+![](images/sad.png)
+
