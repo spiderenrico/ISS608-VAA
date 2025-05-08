@@ -1,5 +1,5 @@
 ---
-title: "Take-Home Exercise 1"
+title: "Take-Home Exercise 1 - Part 1"
 author: "Enrico Sebastian"
 date: "April 29 2025"
 date-modified: "last-modified"
@@ -159,12 +159,10 @@ ggplot(data = filtered_data, aes(x = reorder(`PA`, Pop), y = Pop)) +
 
 From the visualisation above, we can easily determine that most residents prefers to live around Tampines and Pasir Ris towns, given the proximity to other major transport nodes such as Changi Airport and the direct train connections to the city centre.
 
-::: {.callout-tip title="Summary: What can we learn from this visualization?"}
--   Bar charts provides a simple and straightforward visualization method for analysts
-
--   The length of bars can easily help us to visualize on what is the most affected variable
-
--   This data visualization shows that most residents prefer to live in towns such as Tampines and Pasir Ris
+::: {.callout-tip title="What can we learn from this visualization?"}
+- Bar charts provide a simple and straightforward visualization method for analysts
+- The length of bars can easily help us to visualize what is the most affected variable
+- This data visualization shows that most residents prefer to live in towns such as Tampines and Pasir Ris
 :::
 
 #### **2.2 Using Pyramid Bar chart based on Population Area**
