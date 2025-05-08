@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Enrico Sebastian">
-<meta name="dcterms.date" content="2025-04-29">
+<meta name="dcterms.date" content="2025-05-07">
 
-<title>ISS608 VAA – ISS608-VAA</title>
+<title>Take-Home Exercise 1 - Part 2 – ISS608-VAA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,26 +22,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-a37c72dd2dbac68997fcdc15a3622e78.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d3b2f451d308d35df4fbbf2de17edd47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-a37c72dd2dbac68997fcdc15a3622e78.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d3b2f451d308d35df4fbbf2de17edd47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ISS608-VAA</span>
     </a>
   </div>
@@ -97,35 +132,35 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-hands-on-exercise">    
         <li>
-    <a class="dropdown-item" href="./Hands-on_Ex/Hands-on_Ex01/Hands-on Exercise 1.html">
+    <a class="dropdown-item" href="../../Hands-on_Ex/Hands-on_Ex01/Hands-on Exercise 1.html">
  <span class="dropdown-text">Hands-on Exercise 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Hands-on_Ex/Hands-on_Ex02/Hands-on Exercise 2.html">
+    <a class="dropdown-item" href="../../Hands-on_Ex/Hands-on_Ex02/Hands-on Exercise 2.html">
  <span class="dropdown-text">Hands-on Exercise 2</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Hands-on_Ex/Hands-on_Ex03/Hands-on Exercise 3a.html">
+    <a class="dropdown-item" href="../../Hands-on_Ex/Hands-on_Ex03/Hands-on Exercise 3a.html">
  <span class="dropdown-text">Hands-on Exercise 3a</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Hands-on_Ex/Hands-on_Ex03/Hands-on Exercise 3b.html">
+    <a class="dropdown-item" href="../../Hands-on_Ex/Hands-on_Ex03/Hands-on Exercise 3b.html">
  <span class="dropdown-text">Hands-on Exercise 3b</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4a.html">
+    <a class="dropdown-item" href="../../Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4a.html">
  <span class="dropdown-text">Hands-on Exercise 4a</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4b.html">
+    <a class="dropdown-item" href="../../Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4b.html">
  <span class="dropdown-text">Hands-on Exercise 4b</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4c.html">
+    <a class="dropdown-item" href="../../Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4c.html">
  <span class="dropdown-text">Hands-on Exercise 4c</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4d.html">
+    <a class="dropdown-item" href="../../Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4d.html">
  <span class="dropdown-text">Hands-on Exercise 4d</span></a>
   </li>  
     </ul>
@@ -136,19 +171,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
         <li>
-    <a class="dropdown-item" href="./Take-home_Ex/Take-home_Ex01/Take Home Exercise 1a.html">
+    <a class="dropdown-item" href="../../Take-home_Ex/Take-home_Ex01/Take Home Exercise 1a.html">
  <span class="dropdown-text">Take Home Exercise 1a</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Take-home_Ex/Take-home_Ex01/Take Home Exercise 1b.html">
+    <a class="dropdown-item" href="../../Take-home_Ex/Take-home_Ex01/Take Home Exercise 1b.html">
  <span class="dropdown-text">Take Home Exercise 1b</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Take-home_Ex/Take-home_Ex02/Take Home Exercise 2.html">
+    <a class="dropdown-item" href="../../Take-home_Ex/Take-home_Ex02/Take Home Exercise 2.html">
  <span class="dropdown-text">Take Home Exercise 2</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Take-home_Ex/Take-home_Ex03/Take Home Exercise 3.html">
+    <a class="dropdown-item" href="../../Take-home_Ex/Take-home_Ex03/Take Home Exercise 3.html">
  <span class="dropdown-text">Take Home Exercise 3</span></a>
   </li>  
     </ul>
@@ -159,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-in-class-exercise">    
         <li>
-    <a class="dropdown-item" href="./In-class_Ex/In-class_Ex01/In-class Exercise 1.html">
+    <a class="dropdown-item" href="../../In-class_Ex/In-class_Ex01/In-class Exercise 1.html">
  <span class="dropdown-text">In-Class Exercise 1</span></a>
   </li>  
     </ul>
@@ -167,11 +202,11 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -190,10 +225,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#a-very-warm-welcome" id="toc-a-very-warm-welcome" class="nav-link active" data-scroll-target="#a-very-warm-welcome"><strong>A very warm welcome!</strong></a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><strong>Overview</strong></a>
   <ul class="collapse">
-  <li><a href="#about-myself" id="toc-about-myself" class="nav-link" data-scroll-target="#about-myself"><strong>About Myself</strong></a></li>
-  <li><a href="#why-take-this-course-its-so-hard-leh" id="toc-why-take-this-course-its-so-hard-leh" class="nav-link" data-scroll-target="#why-take-this-course-its-so-hard-leh"><strong>Why take this course? It’s so hard leh!</strong></a></li>
+  <li><a href="#what-is-good-on-the-website" id="toc-what-is-good-on-the-website" class="nav-link" data-scroll-target="#what-is-good-on-the-website"><strong>1 What is good on the website?</strong></a>
+  <ul class="collapse">
+  <li><a href="#clear-narrative-structure" id="toc-clear-narrative-structure" class="nav-link" data-scroll-target="#clear-narrative-structure">1.1 <strong>Clear Narrative Structure</strong></a></li>
+  <li><a href="#effective-data-cleaning-and-preparation" id="toc-effective-data-cleaning-and-preparation" class="nav-link" data-scroll-target="#effective-data-cleaning-and-preparation">1.2 <strong>Effective Data Cleaning and Preparation</strong></a></li>
+  <li><a href="#good-visualizations-techniques-used" id="toc-good-visualizations-techniques-used" class="nav-link" data-scroll-target="#good-visualizations-techniques-used">1.3 <strong>Good Visualizations techniques used</strong></a></li>
+  </ul></li>
+  <li><a href="#what-can-be-improved-in-this-website" id="toc-what-can-be-improved-in-this-website" class="nav-link" data-scroll-target="#what-can-be-improved-in-this-website"><strong>2 What can be improved in this website?</strong></a>
+  <ul class="collapse">
+  <li><a href="#visual-design-consistency" id="toc-visual-design-consistency" class="nav-link" data-scroll-target="#visual-design-consistency">2.1 <strong>Visual Design Consistency</strong></a></li>
+  <li><a href="#website-tidyness" id="toc-website-tidyness" class="nav-link" data-scroll-target="#website-tidyness">2.2 <strong>Website Tidyness</strong></a></li>
+  </ul></li>
+  <li><a href="#conclusion-and-remarks" id="toc-conclusion-and-remarks" class="nav-link" data-scroll-target="#conclusion-and-remarks"><strong>3 Conclusion and remarks</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -203,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ISS608 VAA</h1>
+<h1 class="title">Take-Home Exercise 1 - Part 2</h1>
 </div>
 
 
@@ -220,14 +265,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 29, 2025</p>
+      <p class="date">May 7, 2025</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">May 4, 2025</p>
+      <p class="date-modified">May 8, 2025</p>
     </div>
   </div>
     
@@ -238,19 +283,132 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="a-very-warm-welcome" class="level1">
-<h1><strong>A very warm welcome!</strong></h1>
-<p>Hi everyone, a very warm welcome to Rico’s website. In this VAA website, I will be covering all my coursework application that I have learnt and gained throughout my ISS608 - Visual Analytics and Applications. Feel free to explore around my site by clicking on each of the navigation bars above to explore how I do my work and projects</p>
-<section id="about-myself" class="level2">
-<h2 class="anchored" data-anchor-id="about-myself"><strong>About Myself</strong></h2>
-<p>Just a short Introduction to myself, my name is Enrico Sebastian <em>(Rico for short)</em> and I am currently a full-time student at Singapore Management University, pursuing my Master’s Degree of IT in Business (Financial Technology and Analytics). Feel free to drop by and connect to my <a href="https://www.linkedin.com/in/enrico-sebastian-347646235/">linkedIn Profile</a> if you would like to know more of myself.</p>
+<section id="overview" class="level1">
+<h1><strong>Overview</strong></h1>
+<p>In this part of my take home exercise, I will be making a critique on one of my <a href="https://isss608vaarajesh01.netlify.app/takehomeexercises/take_homeexercise1/take_homeexercise1">classmate’s website</a>, Rajesh, and I will also determine on what are the areas that can be improved to mzke the website more neat and professional.</p>
+<p>However, I will first import the dataset so that the new codes will be able to function normally.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"pacman"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressWarnings</span>(<span class="fu">library</span>(<span class="st">"lubridate"</span>))</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Resident_Data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/Resident_Data.csv"</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, readxl, </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>               janitor, lubridate, </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>               ggplot2, ggthemes, </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>               scales, ggridges, </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>               ggdist, patchwork)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="what-is-good-on-the-website" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-good-on-the-website"><strong>1 What is good on the website?</strong></h2>
+<p>The most good first impression that I can imply from his website is the Information that he has populated to his webpage. Rajesh has made significantly good progress on his webpage. The top three impressions that I have from his website are the following:</p>
+<section id="clear-narrative-structure" class="level3">
+<h3 class="anchored" data-anchor-id="clear-narrative-structure">1.1 <strong>Clear Narrative Structure</strong></h3>
+<p>Rajesh’s site follows a well-organized structure with clearly labeled sections: Introduction, Getting Started, Data Wrangling, Exploratory Data Analysis, and Conclusion. This logical flow enhances readability and comprehension.</p>
 </section>
-<section id="why-take-this-course-its-so-hard-leh" class="level2">
-<h2 class="anchored" data-anchor-id="why-take-this-course-its-so-hard-leh"><strong>Why take this course? It’s so hard leh!</strong></h2>
-<p>Yes it is hard! But hands-on experience is important rather than just listening and memorising for finals or quizzes, and that is the reason why I took this course as I wanted to gain some hands-on experience on how to make use of R programming in associated with its related packages to build an effective and constructive website.</p>
-<p><img src="images/image1.png" class="img-fluid"> This course was a bit hard to learn at first due to certain administrative matters such as how to push your codes up to git and netifly, but as I went along, things started out to get easy for me as I get used to it, despite the ups and downs that I need to face when executing my projects and take home exercises.</p>
-<p>But well, that is life isn’t? It isn’t always easy, so whether I can do it or not, I must always do and strive for my best to achieve good results and good career in the future. So hope my website looks good for your reference, and happy exploring my website. See you when I see you and let’s hope to connect one day!</p>
-<p>P.s If got any job lobang, pls drop by my <a href="https://www.linkedin.com/in/enrico-sebastian-347646235/">linkedIn Profile</a> and private message me. :D</p>
+<section id="effective-data-cleaning-and-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="effective-data-cleaning-and-preparation">1.2 <strong>Effective Data Cleaning and Preparation</strong></h3>
+<p>The data wrangling process is thorough, including steps like filtering for Singapore observations, selecting relevant variables, checking for duplicates and missing values, and renaming columns. This meticulous approach ensures data integrity for analysis.</p>
+<p>Such good data cleaning that has been implemented by Rajesh are as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(Resident_Data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 75,696
+Columns: 7
+$ PA      &lt;chr&gt; "Ang Mo Kio", "Ang Mo Kio", "Ang Mo Kio", "Ang Mo Kio", "Ang M…
+$ Subzone &lt;chr&gt; "Ang Mo Kio Town Centre", "Ang Mo Kio Town Centre", "Ang Mo Ki…
+$ AG      &lt;chr&gt; "0_to_4", "0_to_4", "0_to_4", "0_to_4", "0_to_4", "0_to_4", "0…
+$ Sex     &lt;chr&gt; "Males", "Males", "Males", "Males", "Males", "Males", "Females…
+$ FA      &lt;chr&gt; "&lt;= 60", "&gt;60 to 80", "&gt;80 to 100", "&gt;100 to 120", "&gt;120", "No…
+$ Pop     &lt;int&gt; 0, 10, 10, 50, 10, 0, 0, 0, 20, 30, 10, 0, 0, 10, 30, 70, 20, …
+$ Year    &lt;int&gt; 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 20…</code></pre>
+</div>
+</div>
+</section>
+<section id="good-visualizations-techniques-used" class="level3">
+<h3 class="anchored" data-anchor-id="good-visualizations-techniques-used">1.3 <strong>Good Visualizations techniques used</strong></h3>
+<p>Rajesh employs various ggplot2 visualizations to explore the distribution of students’ performance and their relationship with factors like gender, school type, and socioeconomic status. The use of ridgeline plots and other advanced ggplot2 features adds depth to the analysis.</p>
+<p>One such insightful visualization that has been implemented by Rajesh are as folows:</p>
+<p><img src="images/goodcode.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="what-can-be-improved-in-this-website" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-be-improved-in-this-website"><strong>2 What can be improved in this website?</strong></h2>
+<p>There are, however, certain improvements that could be made to his website. The areas that can be further improved are shown as follows:</p>
+<section id="visual-design-consistency" class="level3">
+<h3 class="anchored" data-anchor-id="visual-design-consistency">2.1 <strong>Visual Design Consistency</strong></h3>
+<p>The content for his website is already good and well-structured, however there are certain graphs that could be further improved to enhance aesthetic appeal and user engagement.</p>
+<p>One of the visualisation graphs that I feel can be further improved is the Visualisation 1: Singapore Population Pyramid (2024) graph. The image below shows his codes and the resulting graph output of his code:</p>
+<p><img src="images/Oricodes.png" class="img-fluid"></p>
+<p>We can see from the above that the graph does not show “enough Information”. By the term “enough Information”, the graphs looks uneasy to read and it is difficult to visualise on which Age group has the highest number of population.</p>
+<p>Therefore, the following is the recommended code for one of his graphs that could be improved:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Improved Plot</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Improved Code</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Take-Home-Exercise-1b_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>pyramid_data <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(Pop <span class="sc">~</span> <span class="st">`</span><span class="at">AG</span><span class="st">`</span> <span class="sc">+</span> Sex, <span class="at">data =</span> Resident_Data, sum)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>age_order <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"0_to_4"</span>, <span class="st">"5_to_9"</span>, <span class="st">"10_to_14"</span>, <span class="st">"15_to_19"</span>, <span class="st">"20_to_24"</span>, <span class="st">"25_to_29"</span>, </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>               <span class="st">"30_to_34"</span>, <span class="st">"35_to_39"</span>, <span class="st">"40_to_44"</span>, <span class="st">"45_to_49"</span>, <span class="st">"50_to_54"</span>, <span class="st">"55_to_59"</span>, </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>               <span class="st">"60_to_64"</span>, <span class="st">"65_to_69"</span>, <span class="st">"70_to_74"</span>, <span class="st">"75_to_79"</span>, <span class="st">"80_to_84"</span>, <span class="st">"85_to_89"</span>, </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>               <span class="st">"90_and_over"</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>pyramid_data<span class="sc">$</span>AG <span class="ot">&lt;-</span> <span class="fu">factor</span>(pyramid_data<span class="sc">$</span>AG, <span class="at">levels =</span> age_order)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>pyramid_data<span class="sc">$</span>Pop[pyramid_data<span class="sc">$</span>Sex <span class="sc">==</span> <span class="st">"Males"</span>] <span class="ot">&lt;-</span> <span class="sc">-</span>pyramid_data<span class="sc">$</span>Pop[pyramid_data<span class="sc">$</span>Sex <span class="sc">==</span> <span class="st">"Males"</span>]</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> pyramid_data, <span class="fu">aes</span>(<span class="at">x =</span> AG, <span class="at">y =</span> Pop, <span class="at">fill =</span> Sex)) <span class="sc">+</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Population Pyramid (2024)"</span>, <span class="at">x =</span> <span class="st">"Age Group"</span>, <span class="at">y =</span> <span class="st">"Population"</span>) <span class="sc">+</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> comma) <span class="sc">+</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"skyblue"</span>, <span class="st">"salmon"</span>)) <span class="sc">+</span> </span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>))  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<p>The above improved graph and codes ensures a fair and easier visualisation for both himself and potentially to whoever will see his website. Furthermore, this set of improved codes can also ensure professionalism and tidyness when Rajesh were to expose his website to his stakeholders or even the members of the public.</p>
+</section>
+<section id="website-tidyness" class="level3">
+<h3 class="anchored" data-anchor-id="website-tidyness">2.2 <strong>Website Tidyness</strong></h3>
+<p>Besids the visualisation graphs, another area that needs to be improved is also the website itself. Despite Rajesh’s tireless efforts to render and complete his tasks, his website still needs further house-keeping to ensure that his contents looks neat and tidy.</p>
+<p>This improvement can be done by setting up the scenario as an Introduction to his website, and also adding up section headers to specify the sections of his website. Furthermore, when visualising graphs, it is also recommended for Rajesh to seperate out the codes and the plots by using the <code>:::panel-tabset</code> function, and also use the <code>:::callout-tip</code> function if he wants to provide any information specific to his visualisation, or if he has any additional Information to add. An example is shown below:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>The visualization graphs to ensure that it is readable for analysts</li>
+<li>The addition of certain features such as panel or callout.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="conclusion-and-remarks" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-and-remarks"><strong>3 Conclusion and remarks</strong></h2>
+<p>Rajesh’s website has been a good website after all, however, this website is not as professional as it seems as the website looks quite untidy and there are messy data visualizations, which could be difficult to read. With the improvement of the visualisations above, it is believed that this website could have a good revamp on future take home exercises and projects</p>
 
 
 </section>
