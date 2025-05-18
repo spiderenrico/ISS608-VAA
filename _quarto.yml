@@ -24,6 +24,8 @@ website:
           href: "Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4c.html"
         - text: "Hands-on Exercise 4d"
           href: "Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 4d.html"
+        - text: "Hands-on Exercise 5"
+          href: "Hands-on_Ex/Hands-on_Ex05/Hands-on Exercise 5.html"
     
     - text: "Take Home Exercise"
       menu:
@@ -40,6 +42,8 @@ website:
       menu: 
         - text: "In-Class Exercise 1"
           href: "In-class_Ex/In-class_Ex01/In-class Exercise 1.html"
+        - text: "In-Class Exercise 2"
+          href: "In-class_Ex/In-class_Ex02/In class Exercise 2.html"
         
     right: 
       - href: index.qmd
