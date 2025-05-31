@@ -19,9 +19,6 @@ execute:
 
 Hi everyone, a very warm welcome to Rico's website. In this VAA website, I will be covering all my coursework application that I have learnt and gained throughout my ISS608 - Visual Analytics and Applications. Feel free to explore around my site by clicking on each of the navigation bars above to explore how I do my work and projects 
 
-## **About Myself**
-
-Just a short Introduction to myself, my name is Enrico Sebastian _(Rico for short)_ and I am currently a full-time student at Singapore Management University, pursuing my Master's Degree of IT in Business (Financial Technology and Analytics). Feel free to drop by and connect to my [linkedIn Profile](https://www.linkedin.com/in/enrico-sebastian-347646235/) if you would like to know more of myself.
 
 ## **Why take this course? It's so hard leh!**
 

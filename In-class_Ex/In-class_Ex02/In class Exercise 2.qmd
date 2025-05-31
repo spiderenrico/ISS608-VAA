@@ -58,8 +58,6 @@ ggplot(data = nodes_tbl,
 
 ## Creating knowledge graphs
 
-This is
-
 ### Step 1: mapping from node id to row index
 ```{r}
 

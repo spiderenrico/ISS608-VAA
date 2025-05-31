@@ -1,9 +1,19 @@
 ---
 title: "About"
+author: "Enrico Sebastian"
+date: "April 29 2025"
+date-modified: "last-modified"
+execute: 
+  eval: true
+  echo: true
+  warning: false
+  freeze: true
 ---
 
-About this site
+# About Myself
 
-```{r}
-1 + 1
-```
+## Introduction of myself
+
+My name is Enrico Sebastian _(Rico for short)_ and I am currently a full-time student at Singapore Management University, pursuing my Master's Degree of IT in Business (Financial Technology and Analytics). Feel free to drop by and connect to my [linkedIn Profile](https://www.linkedin.com/in/enrico-sebastian-347646235/) if you would like to know more of myself.
+
+
