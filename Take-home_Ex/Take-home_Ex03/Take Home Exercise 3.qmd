@@ -10,7 +10,5 @@ execute:
   freeze: true
 ---
 
+In this part of the Take home Exercise, I will be impplementing the possible prototype that I will be using. Please visit our [group's SHINY project](https://isss608projectgroup12.netlify.app/) website for more details.
 
-This webpage is not created yet. Stay tuned or refresh for updates..!!!
-
-![](images/sad.png)
