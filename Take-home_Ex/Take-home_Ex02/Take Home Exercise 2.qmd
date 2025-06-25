@@ -2,10 +2,9 @@
 title: "Take-Home Exercise 2"
 author: "Enrico Sebastian"
 date: "April 29 2025"
-date-modified: "last-modified"
-format: html
+date-modified: "May 30 2025"
 execute: 
-  eval: false
+  eval: true
   echo: true
   warning: false
   freeze: true
