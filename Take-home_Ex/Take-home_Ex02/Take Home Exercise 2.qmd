@@ -3,7 +3,7 @@ title: "Take-Home Exercise 2"
 author: "Enrico Sebastian"
 date: "April 29 2025"
 date-modified: "last-modified"
-format: docx
+format: html
 execute: 
   eval: false
   echo: true
