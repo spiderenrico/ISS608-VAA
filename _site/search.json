@@ -21,6 +21,13 @@
     "text": "Yes it is hard! But hands-on experience is important rather than just listening and memorising for finals or quizzes, and that is the reason why I took this course as I wanted to gain some hands-on experience on how to make use of R programming in associated with its related packages to build an effective and constructive website.\n This course was a bit hard to learn at first due to certain administrative matters such as how to push your codes up to git and netifly, but as I went along, things started out to get easy for me as I get used to it, despite the ups and downs that I need to face when executing my projects and take home exercises.\nBut well, that is life isn’t? It isn’t always easy, so whether I can do it or not, I must always do and strive for my best to achieve good results and good career in the future. So hope my website looks good for your reference, and happy exploring my website. See you when I see you and let’s hope to connect one day!\nP.s If got any job lobang, pls drop by my linkedIn Profile and private message me. :D"
   },
   {
+    "objectID": "In-class_Ex/In-class_Ex03/geospatial/MPSZ-2019.html",
+    "href": "In-class_Ex/In-class_Ex03/geospatial/MPSZ-2019.html",
+    "title": "ISS608-VAA",
+    "section": "",
+    "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     dataset\n\n\n        0 0     false"
+  },
+  {
     "objectID": "In-class_Ex/In-class_Ex01/In-class Exercise 1.html",
     "href": "In-class_Ex/In-class_Ex01/In-class Exercise 1.html",
     "title": "In-Class Exercise 1",
@@ -754,6 +761,13 @@
     "title": "In-class Exercise 2",
     "section": "",
     "text": "graph_memberof &lt;- graph %&gt;%\n  activate(edges) %&gt;%\n  filter (`Edge Type` == \"Memberof\")\n\n\n\n\n\nused_node_indices &lt;- graph_memberof %&gt;%\n  activate(edges) %&gt;%\n  as_tibble() %&gt;%\n  select(from, to) %&gt;%\n  unlist() %&gt;%\n  unique()\n\n\n\n\n\ngraph_memberof &lt;- graph_memberof %&gt;%\n  activate(nodes) %&gt;%\n  mutate(row_id = row_number()) %&gt;%\n  filter(row_id %in% used_node_indices) %&gt;%\n  select(-row_id)  # optional cleanup\n\n\n\n\n\nggraph(graph_memberof, \n       layout = \"fr\") +\n  geom_edge_link(alpha = 0.5, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `Node Type`), \n                  size = 1) +\n  geom_node_text(aes(label = name), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()"
+  },
+  {
+    "objectID": "In-class_Ex/In-class_Ex09/geospatial/MPSZ-2019.html",
+    "href": "In-class_Ex/In-class_Ex09/geospatial/MPSZ-2019.html",
+    "title": "ISS608-VAA",
+    "section": "",
+    "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     dataset\n\n\n        0 0     false"
   },
   {
     "objectID": "Take-home_Ex/Take-home_Ex01/Take Home Exercise 1a.html",
