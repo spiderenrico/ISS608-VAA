@@ -31,9 +31,12 @@ website:
         - text: "Hands-on Exercise 8a"
           href: "Hands-on_Ex/Hands-on_Ex08/Hands-on Exercise 8a.html"
         - text: "Hands-on Exercise 8b"
-          href: "Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 8b.html"
+          href: "Hands-on_Ex/Hands-on_Ex08/Hands-on Exercise 8b.html"
         - text: "Hands-on Exercise 8c"
-          href: "Hands-on_Ex/Hands-on_Ex04/Hands-on Exercise 8c.html"
+          href: "Hands-on_Ex/Hands-on_Ex08/Hands-on Exercise 8c.html"
+        - text: "Hands-on Exercise 10"
+          href: "Hands-on_Ex/Hands-on_Ex10/Hands-on Exercise 10.html"
+        
     
     - text: "Take Home Exercise"
       menu:
@@ -52,7 +55,10 @@ website:
           href: "In-class_Ex/In-class_Ex01/In-class Exercise 1.html"
         - text: "In-Class Exercise 2"
           href: "In-class_Ex/In-class_Ex02/In class Exercise 2.html"
-        
+    
+    - text: "Final SHINY Project"
+      href: "https://isss608projectgroup12.netlify.app/"
+      
     right: 
       - href: index.qmd
         text: Home
